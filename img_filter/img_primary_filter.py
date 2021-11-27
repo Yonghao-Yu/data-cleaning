@@ -27,7 +27,7 @@ def check_img(img_path):
 
 
 if __name__ == '__main__':
-    root_dir = "../Image-Downloader-master/download_images/dog"
+    root_dir = "../cat"
     file_suffix = "jpeg|jpg|png"
     remove_dir = root_dir + "/remove"
     if not os.path.exists(remove_dir):
